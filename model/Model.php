@@ -11,7 +11,7 @@ class Model{
         $i = 0;
         $test = array(false);
         foreach ($allBook as $oneBook) {
-            if($oneBook['bookname'] == $title){
+            if($oneBook['name'] == $title){
                 $test = array(true, $allBook[$i]);
                 return $test;
             }

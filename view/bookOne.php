@@ -3,7 +3,7 @@
     ob_start();
 
     echo '<article>';
-    echo '<h3>'.$book['bookname'].'</h3>';
+    echo '<h3>'.$book['name'].'</h3>';
     echo '<img src = "public/images/'.$book['image'].'">';
     echo '<p>Author(s): '.$book['author'].'</p>';
     echo '<p>Price: '.$book['price'].'</p>';

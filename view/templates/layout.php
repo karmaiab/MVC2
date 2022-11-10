@@ -7,11 +7,11 @@
 <body>
     <div class="container">
         <div>
-            <h2>Book Store</h2>
+            <h2>Game Store</h2>
             <h4 class="text-muted">
                 <?php
                 echo '<a href="./">Main</a> &#187';
-                echo '<a href="books">Books</a>';
+                echo '<a href="books">Games</a>';
                 if (!empty($book['bookname'])) echo ' &#187'.$book['bookname'];
                 ?>
             </h4>
